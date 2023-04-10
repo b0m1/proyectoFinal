@@ -15,4 +15,9 @@
 > **Primer intento de exámen**: no superado :(
 
 > `10/04`
-> **Segundo intento de exámen**:
+> **Segundo intento de exámen**: superado :)
+
+## Curso de Excel: Funciones Básicas
+`09/04 - `
+- **Funciones matemáticas**: explica las funciones más comunes como:  suma, sumar.si, abs, redondear, etc. También explica los distintos tipos de funciones que existen: sin parámetros, con múltiples parámetros y con parámetros opcionales.
+- **Funciones Estadísticas**: contar, contara, max y min, mediana y moda, promedio, etc.
