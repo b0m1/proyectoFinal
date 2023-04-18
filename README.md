@@ -17,7 +17,7 @@
 
 > 10/04
 > **Segundo intento de exámen**: superado :)
-![Certificado 1er curso](certificado2.jpg)
+![](celebration.gif)
 ## Curso de Excel: Funciones Básicas
 #####  09/04 - 10/04
 - **Funciones matemáticas**: explica las funciones más comunes como:  suma, sumar.si, abs, redondear, etc. También explica los distintos tipos de funciones que existen: sin parámetros, con múltiples parámetros y con parámetros opcionales.
@@ -32,4 +32,4 @@
 - **Funciones de texto**: Operador & para concatenar cadenas. Función espacios, limpiar, izquierda, extraer, derecha, mayus, minusc, nompropio, largo, comparar con = (no distingue mayus) o con igual (distingue mayus).
 > 17/04
 > **Primer intento de exámen**: superado :)
-![Certificado 2º curso](certificado.jpg)
+![](celebration.gif)
