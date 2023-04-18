@@ -17,6 +17,7 @@
 
 > 10/04
 > **Segundo intento de exámen**: superado :)
+
 ![](celebration.gif)
 ## Curso de Excel: Funciones Básicas
 #####  09/04 - 10/04
@@ -32,4 +33,5 @@
 - **Funciones de texto**: Operador & para concatenar cadenas. Función espacios, limpiar, izquierda, extraer, derecha, mayus, minusc, nompropio, largo, comparar con = (no distingue mayus) o con igual (distingue mayus).
 > 17/04
 > **Primer intento de exámen**: superado :)
+
 ![](celebration.gif)
