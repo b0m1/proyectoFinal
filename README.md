@@ -31,7 +31,25 @@
 ##### 18/04 
 - **Funciones de fechas**: las fechas en excel se almacenan como números enteros secuenciales, empezando por el 01/01/1900. Por lo tanto puedes realizar cálculos con una fecha. Funciones útiles: hoy() y ahora(), dias.lab, fecha, fecha.mes, fin.mes.
 - **Funciones de texto**: Operador & para concatenar cadenas. Función espacios, limpiar, izquierda, extraer, derecha, mayus, minusc, nompropio, largo, comparar con = (no distingue mayus) o con igual (distingue mayus).
-> 17/04
+ > 18/04
+> **Primer intento de exámen**: superado :)
+
+![](celebration.gif)
+
+[ Una cosa que estoy haciendo para mi pero igual cuenta como práctica (?)](https://docs.google.com/spreadsheets/d/14kz8qrnCIhoKCuyz1kxJKhWkl1hcu4ruL2s1hSQs0H0/edit?usp=sharing)
+
+## Curso de Excel: Funciones Avanzadas
+##### 20/04
+- **Funciones Lógicas**: if, and, or. Formato personalizado y formato condicional.
+- **Funciones de búsqueda**: Funciones para buscar elementos dentro de tablas como Buscar.v y otras como índice, fila, columna para usar en conjunto con la anterior.
+- **Funciones varias**:  
+	- **Jerarquía.EQV**: devuelve la posición de un número dentro de una lista de números.
+	- **Hipervínculo**, **Formula Texto**.
+	- **Pago**: una función financiera que calcula el pago periódico que debemos realizar por un préstamo
+	- **Convertir**: para convertir de un sistema de medida (peso, distancia, temperatura, energía, potencia, etc) a otro. Muy útil.
+- **Novedades en Excel 365**: buscarx se puede usar sustituyendo a buscarv ya que es una versión mejorada de ésta. Ordenar y ordenarpor. Si.conjunto para no tener que anidarlos, filtrar, únicos (elimina valores repetidos), secuencia(crear una secuencia de números)
+
+ > 24/04
 > **Primer intento de exámen**: superado :)
 
 ![](celebration.gif)
