@@ -53,3 +53,19 @@
 > **Primer intento de exámen**: superado :)
 
 ![](celebration.gif)
+
+
+## Curso de Excel: Bases de Datos
+##### 25/04
+- **Tablas**: Dar formato como tabla nos permite trabajar con los datos de manera más sencilla, por ejemplo: segmentarlos, seleccionarlos, validarlos o filtrarlos. Funciones de bases de  datos como: contar, sumar, max, min pero aplicadas a una base de datos. Fila de totales: crea una fila al final de la tabla en la que puedes aplicar una función para cada columna (suma, promedio...). Vistas de hoja
+- **Tablas Dinámicas**: crearlas, ordenarlas, agrupar elementos, segmentarlas, lo visto en las tablas normales y algunas características propias que tienen las dinámicas. Crear campos y elementos calculados. Distintas formas de referenciar celdas de una tabla dinámica (sin import y con import). Gráficos dinámicos (en la ficha análisis de gráfico dinámico). Diseño de la tabla dinámica (pestaña diseño): activar subtotales, formato tabular... Aplicar formato condicional (se hace igual).
+- **Importar y relacionar datos**: Hay que tener en cuenta la versión de excel. Datos --> Obtener datos. En excel no se pueden tener relaciones de varios a varios. Se pueden importar de bbdd de páginas web o de archivos de texto.
+
+ > 27/04
+> **Exámen**: superado :)
+
+![](celebration.gif)
+
+## Curso de Excel: Gráficos
+- Minigráficos, se crean en una celda.
+- Crear un gráfico: a partir de unos datos, seleccionamos los que queremos que aparezcan y en insertar --> gráficos recomendados o elegimos el que queremos
