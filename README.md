@@ -67,5 +67,29 @@
 ![](celebration.gif)
 
 ## Curso de Excel: Gráficos
-- Minigráficos, se crean en una celda.
-- Crear un gráfico: a partir de unos datos, seleccionamos los que queremos que aparezcan y en insertar --> gráficos recomendados o elegimos el que queremos
+##### 28/04
+- **Minigráficos**, se crean en una celda.
+- **Crear un gráfico**: a partir de unos datos, seleccionamos los que queremos que aparezcan y en insertar --> gráficos recomendados o elegimos el que queremos
+##### 02/05
+- **Gráficos en Excel**
+	- **Nuevos tipos de gráficos en excel 365**: mapa (para representar los datos geográficos en un mapa), rectángulos, proyección solar (para cuando existen varias categorias), cajas y bigotes, cascada y embudo.
+	- **Modificar un gráfico**. Hay 3 botones en la parte de la derecha: el primero para añadir/quitar elementos del gráfico, el segundo (pincel) para cambiar el estilo del gráfico y el embudo para filtrar información. En la pestaña diseño de gráfico > seleccionar datos podemos cambiar el rango de datos. Para cambiar las series hay que hacer doble click sobre ellas. Podemos modificar el eje y de la misma forma.
+	- **Personalizar un gráfico**: en la pestaña diseño de gráfico > agregar elemento de gráfico o el primer botón que hay a la derecha del gráfico. Podemos poner títulos,  lineas de cuadrícula, tabla de datos, etc.
+	- **Herramientas de análisis**: en el mismo apartado anterior tenemos los elementos barras de error o línea de tendencia.
+	- **Gráficos de sectores**: sólo se puede ver un rango de datos (en el embudo podemos decidir qué datos ver). Tienen una versión con subgráfico de barras que es muy útil para representar datos no proporcionales.
+	- **Crear plantillas de gráficos**: haciendo click derecho en un gráfico le damos a guardar como plantilla. Accedemos a ellas desde insertar gráfico en el apartado "plantillas".
+- **Imágenes en Excel**.
+	- **Capturas de pantalla**: en Insertar > Ilustraciones > Captura.
+	- **Insertar imágenes**: en Insertar podemos usar bing desde excel para buscar cualquier imagen. Puedes editar la imagen en la pestaña formato de la imagen. Es importante comprimirlas si vamos a tener muchas.
+	- **SmartArts**: otro tipo de gráficos, por ejemplo tenemos la opción de insertar organigramas o diagramas.
+
+ > 
+> **Exámen**: 
+
+## Curso de Excel: Macros
+##### 04/05
+- **Grabar una macro**:
+- **Formas de ejecutar una macro**:
+- **Seguridad de macros**:
+- **Referencias absolutas y relativas**:
+- **Hasta donde llegan las macros**:
