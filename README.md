@@ -105,12 +105,18 @@
 > 05/05
 > **Exámen**: Aprobado
 
-![](celebration.gif)
+![](wiii.gif)
 
 ## Curso de Excel: Herramientas de cálculo avanzado
 ##### 05/05 
-- **Tablas de datos**:
-- **Escenarios**:
-- **Solver**:
+- **Búsqueda de objetivos**: Sirve para resolver una ecuación. En la ficha de Datos/Análisis de hipótesis/Buscar objetivo. Ahí indicamos la celda donde queremos coger los datos, el valor objetivo y la celda que queremos cambiar. 
+- **Tablas de datos**: Selccionamos los datos y en la ficha de Datos/Análisis de hipótesis/Tabla de datos. Hay que indicar la celda de la que coge los daos la fila o la columna o ambas.
+- **Escenarios**: Nos permite analizar nuestros datos creando varios escenarios modificando en cada caso el dato que le indiquemos, de esta forma podemos ver como cambiarían las fórmulas o los otros datos que dependan del que modifiquemos con el escenario. Los podemos crear en Datos/Analisis de hipótesis/Administrador de Escenarios.
+- **Consolidar**:
+- **Solver**: Hay que instalarla en archivo/opciones/complementos
 - **Nuevas herramientas Excel 365**:
 - **Protección de datos**:
+
+## Curso de Excel: Powers
+##### 05/05 
+- **Importar datos con Power Query**: 
