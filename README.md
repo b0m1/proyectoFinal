@@ -83,13 +83,34 @@
 	- **Insertar imágenes**: en Insertar podemos usar bing desde excel para buscar cualquier imagen. Puedes editar la imagen en la pestaña formato de la imagen. Es importante comprimirlas si vamos a tener muchas.
 	- **SmartArts**: otro tipo de gráficos, por ejemplo tenemos la opción de insertar organigramas o diagramas.
 
- > 
-> **Exámen**: 
+[Aquí hay gráficos](https://docs.google.com/spreadsheets/d/1n9YLOcUbrjLEQJuI_hvWsfR8t0vPq5pOpIJQyVew7b0/edit?usp=sharing)
+
+ > 04/05
+> **Exámen**: Aprobado
+
+![](celebration.gif)
 
 ## Curso de Excel: Macros
 ##### 04/05
-- **Grabar una macro**:
-- **Formas de ejecutar una macro**:
-- **Seguridad de macros**:
+- **Grabar una macro**: en la pestaña de Programador/Desarrollador le damos a "Grabar macro". Hay que ponerle nombre (sin espacios ni puntos), una combinación de teclas para ejecutarla (opcional), especificar dónde la vamos a guardar (para que funcione tiene que estar abierto el libro en el que esté guardada) y ponerle una descripción. Importante: detener la grabación. No se puede usar el deshacer.
+- _**Ejercicio**_: una macro que ponga el punto a los miles sin usar el botón por defecto.
+- **Formas de ejecutar una macro**: con las teclas asignadas, desde el botón de macros o creando un botón dentro de la hoja y asignándole la macro. También podemos añadir un botón a la barra de herramientas de la macro que queramos y personalizarlo.
+- **Seguridad de macros**: hay varias opciones para limitar las macros que puedes utilizar. Puedes dar permiso a una ubicación para que permita usar todas las macros que tengas ahí.
+- **Formato de libro con macros**: los archivos de excel normales no permiten guardar macros, hay que guardarlo en formato .xlsm o .xlsb.
+- **Crear un complemento**: guardar con formato .xlam y habilitarlo en Programador > Complementos.
 - **Referencias absolutas y relativas**:
-- **Hasta donde llegan las macros**:
+	- _**Ejercicio**_: con la plantilla que nos da tenemos que crear una macro con referencias absolutas.
+- **Hasta donde llegan las macros**: Para poder usar bien las macros hay que saber VBA.
+
+> 05/05
+> **Exámen**: Aprobado
+
+![](celebration.gif)
+
+## Curso de Excel: Herramientas de cálculo avanzado
+##### 05/05 
+- **Tablas de datos**:
+- **Escenarios**:
+- **Solver**:
+- **Nuevas herramientas Excel 365**:
+- **Protección de datos**:
