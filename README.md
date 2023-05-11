@@ -23,16 +23,35 @@
 
 ## Curso de Excel: Funciones Básicas
 #####  09/04 - 10/04
-- **Funciones matemáticas**: explica las funciones más comunes como:  suma, sumar.si, abs, redondear, etc. También explica los distintos tipos de funciones que existen: sin parámetros, con múltiples parámetros y con parámetros opcionales.
-- **Funciones Estadísticas**: contar, contara, max y min, mediana y moda, promedio, etc.
+- **Funciones matemáticas**: explica qué hacen las funciones de este grupo más comunes como:  suma, sumar.si,  abs, redondear, etc. También los distintos tipos de funciones que existen: sin parámetros (pi), con múltiples parámetros (suma) y con parámetros opcionales (promedio) .
+- **Funciones Estadísticas**: 
+	- **contar**: cuenta las celdas que contienen números.
+	- **contara**: cuenta las celdas que no están vacias. 
+	- **max y min**: indica el valor numérico más grande/pequeño en un rango de celdas.
+	- **mediana**: coge el número que parte a la mitad un conjunto de números que están ordenados de menor a mayor.
+	- **moda**: es el número que más se repite en un grupo de números
+	- **promedio**: suma un rango de números y lo divide por la cantidad de números que hay en ese rango.
+
 ##### 17/04
-- He añadido una hoja de cálculo que he usado para probar cosas aunque de momento lo que he dado son cosas muy básicas que ya usaba. Además de momento no propone ningún ejercicio, no sé como será más adelante. 
-- Yo estoy usando google sheets en vez de Excel, en el momento en el que den cosas que sean únicas de Excel me pasaré. Te paso el enlace por si funciona raro con la extensión de excel.
-- En la hoja **datos** usé la función importHTML para coger datos de lastfm, no es lo más útil pero era por probar. En la hoja **datos formateados** están los datos "importantes" formateados de forma que sean más fácil de leer.
-[Hoja de cálculo](https://docs.google.com/spreadsheets/d/1hfxe_l0k1tU5pS1mD4TpWGmoE3gJaDTh5dBuOsL6dcE/edit?usp=sharing)
+ >En la hoja **datos** usé la función importHTML para coger datos de lastfm, no es lo más útil pero era por probar. En la hoja **datos formateados** están los datos "importantes" formateados de forma que sean más fácil de leer. 
+[Hoja de cálculo pa probar cosas](https://docs.google.com/spreadsheets/d/1hfxe_l0k1tU5pS1mD4TpWGmoE3gJaDTh5dBuOsL6dcE/edit?usp=sharing)
+
 ##### 18/04 
-- **Funciones de fechas**: las fechas en excel se almacenan como números enteros secuenciales, empezando por el 01/01/1900. Por lo tanto puedes realizar cálculos con una fecha. Funciones útiles: hoy() y ahora(), dias.lab, fecha, fecha.mes, fin.mes.
-- **Funciones de texto**: Operador & para concatenar cadenas. Función espacios, limpiar, izquierda, extraer, derecha, mayus, minusc, nompropio, largo, comparar con = (no distingue mayus) o con igual (distingue mayus).
+- **Funciones de fechas**: las fechas en excel se almacenan como números enteros secuenciales, empezando por el 01/01/1900; por lo tanto, se pueden realizar cálculos con fechas de la misma forma que con números enteros. Funciones útiles: 
+	- **hoy(); ahora()** 
+	- **dias.lab(fecha_inicial ; fecha_final ; _vacaciones_)**: devuelve el núm de días laborables que existen entre las fechas indicadas. No incluye los fines de semana ni las fechas indicadas en vacaciones.
+	- **fecha()**: une tres valores distintos para convertirlos en una fecha.
+	- **fecha.mes(fecha_inicial ; meses)**: calcula una fecha con el número de meses que le indiques, si el valor es negativo devolverá  una fecha pasada a fecha_inicial, si es positivo será una fecha futura.
+- **Funciones de texto**: Se utiliza el operador & para concatenar cadenas. Podemos compararlas con el símbolo = (no distingue mayúsculas) o con la función igual (si distingue). Funciones útiles: 
+	- **espacios()**: elimina espacios que haya al principio o final de la cadena.
+	- **limpiar()**:  elimina carácteres no imprimibles.
+	- **izquierda(),  derecha()**: devuelve la cantidad de carácteres que indiquemos empezando por la izq o derecha. 
+	- **mayus(), minusc()**
+	- **nompropio()**: convierte la primera letra de cada cadena que no sea un único carácter a mayúsculas y el resto de las letras a minúsculas.
+	- **largo()**: obtiene el número de caracteres de una cadena de texto.
+
+[Ejercicios](ejercicios/Funciones_basicas.xlsx)
+
  > 18/04
 > **Primer intento de exámen**: superado :)
 
