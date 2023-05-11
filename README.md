@@ -2,15 +2,16 @@
 ## Curso de Excel para principiantes
 #####  04/04 - 05/04
 - **Trabajar con archivos en excel**: en este apartado se aprenden cosas muy básicas para manejarse con Excel (crear archivos, guardarlos, editarlos, etc). 
-- **Formato de celdas**: explica los distintos formatos y estilos que le puedes aplicar a una celda.
-- **Realizar cálculos y funciones básicas**: 
-![](https://i.imgur.com/dUlg5Mh.png)
-- **Gráficos**: cómo crear gráficos a partir de datos, editarlos, filtrar por sus datos y los tipos de gráficos más comunes.
+- **Formato de celdas**: explica los distintos formatos y estilos que le puedes aplicar a una celda. Existen distintos formatos que puedes aplicarle a números (moneda, contabilidad, fecha, porcentaje, científica, etc) o a textos (negrita, alineación,  color).
+- **Realizar cálculos y funciones básicas**: las funciones se insertan con el símbolo _=_ seguido por el nombre de la función y paréntesis _()_ en los que insertamos los parámetros necesarios o, en el caso de que no tenga, los dejamos vacios. Puedes obtener una referencia absoluta de una celda pulsando F4, si pulsas dos veces sólo hace absoluta la referencia de la fila y, si lo haces una tercera vez, se vuelve absoluta la columna.
+- **Gráficos**: para crear un gráfico tenemos que seleccionar los datos que queremos que lo compongan y seleccionar _insertar > gráficos recomendados_ y elegimos el que queramos. Si pulsamos en los distintos tipos tenemos una vista previa de cómo quedaría nuestro gráfico.
 
 ##### 06/04 - 09/04
 
-- **Hojas de cálculo**: cómo crear o eliminar más hojas dentro de un libro, copiarlas, utilizar datos de otras hojas/libros y ver varias hojas a la vez.
-- **Diseño de impresión**: cómo configurar de distintas formas las hojas para imprimirlas o guardarlas en pdf.
+- **Hojas de cálculo**: podemos crear más hojas de distintas formas. En la parte inferior pulsando el icono que tiene un + o seleccionando _inicio > insertar > insertar hoja_. Podemos copiar una hoja en el mismo libro si pulsamos CTRL y la arrastramos a la ubicación que deseemos. Otra opción es hacer click derecho en la pestaña y seleccionar _mover o copiar_.
+- **Diseño de impresión**: seleccionamos las hojas de cálculo que vayamos a imprimir o guardar en pdf y seleccionamos _archivo > imprimir_.
+
+[Ejercicios](ejercicios/Principiantes.xlsx)
 
 > 09/04
 > **Primer intento de exámen**: no superado :(
@@ -19,6 +20,7 @@
 > **Segundo intento de exámen**: superado :)
 
 ![](celebration.gif)
+
 ## Curso de Excel: Funciones Básicas
 #####  09/04 - 10/04
 - **Funciones matemáticas**: explica las funciones más comunes como:  suma, sumar.si, abs, redondear, etc. También explica los distintos tipos de funciones que existen: sin parámetros, con múltiples parámetros y con parámetros opcionales.
