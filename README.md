@@ -57,18 +57,25 @@
 
 ![](celebration.gif)
 
-[ Una cosa que estoy haciendo para mi pero igual cuenta como práctica (?)](https://docs.google.com/spreadsheets/d/14kz8qrnCIhoKCuyz1kxJKhWkl1hcu4ruL2s1hSQs0H0/edit?usp=sharing)
-
 ## Curso de Excel: Funciones Avanzadas
 ##### 20/04
-- **Funciones Lógicas**: if, and, or. Formato personalizado y formato condicional.
+- **Funciones Lógicas**: if, and, or.  
+	- **Formato personalizado**: Para crear un formato de número personalizado tenemos que ir a la ventana de formato de celdas y en la pestaña de números elegir la categoría _personalizado_. Escogemos el tipo que más se parezca a lo que queramos y modificamos como mejor nos convenga.
+	- **Formato condicional**: nos permite resaltar un rango de celdas según la condición que le apliquemos. Podemos cambiar el color de la fuente, del fondo de la celda, aplicar escalas de colores, agregar iconos y otras muchas cosas.
 - **Funciones de búsqueda**: Funciones para buscar elementos dentro de tablas como Buscar.v y otras como índice, fila, columna para usar en conjunto con la anterior.
 - **Funciones varias**:  
 	- **Jerarquía.EQV**: devuelve la posición de un número dentro de una lista de números.
-	- **Hipervínculo**, **Formula Texto**.
-	- **Pago**: una función financiera que calcula el pago periódico que debemos realizar por un préstamo
+	- **Hipervínculo** para crear links, **FormulaTexto** para ver la fórmula que hay en una celda como una cadena.
+	- **Pago**: una función financiera que calcula el pago periódico que debemos realizar por un préstamo.
 	- **Convertir**: para convertir de un sistema de medida (peso, distancia, temperatura, energía, potencia, etc) a otro. Muy útil.
-- **Novedades en Excel 365**: buscarx se puede usar sustituyendo a buscarv ya que es una versión mejorada de ésta. Ordenar y ordenarpor. Si.conjunto para no tener que anidarlos, filtrar, únicos (elimina valores repetidos), secuencia(crear una secuencia de números)
+- **Novedades en Excel 365**: buscarx se puede usar sustituyendo a buscarv ya que es una versión mejorada de ésta. BuscarX puede devolver una matriz con varios elementos.
+	- **Ordenar y ordenarpor**: devuelven una matriz ordenada de los elementos de una matriz. La diferencia es que ordenarpor() usamos los datos de otra matriz para ordenar la matriz. 
+	- **Si.conjunto**: para no tener que anidar ifs. 
+	- **Filtrar**:  permite filtrar un rango de datos según los criterios que definamos.
+	- **Unicos**: devuelve los valores que no están repetidos de una lista. 
+	- **Secuencia**: crear una lista de números secuenciales pudiendo definir en qué numero empieza y en cuánto se incrementa. 
+
+[Aquí hay buscarv, si, si.error, hipervínculo, formato condicional y otras, he intentado pasarlo a excel pero es un despropósito porque hay funciones propias de sheets y voy a perder mucho tiempo en eso solo. Una pena porque los caracteres japoneses se ven mucho más chulos en excel.](https://docs.google.com/spreadsheets/d/14kz8qrnCIhoKCuyz1kxJKhWkl1hcu4ruL2s1hSQs0H0/edit?usp=sharing)
 
  > 24/04
 > **Primer intento de exámen**: superado :)
