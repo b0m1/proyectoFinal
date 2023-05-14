@@ -1,5 +1,15 @@
 # Proyecto final
-## Curso de Excel para principiantes
+--------------
+
+## Índice
+1. [Excel para Principiantes](README.md#curso-de-excel-para-principiantes)
+2. [Funciones Básicas](README.md#funciones-basicas)
+3. [Funciones Avanzadas](README.md#funciones-avanzadas)
+4. 
+
+------------------------------
+
+## Curso de Excel para principiantes 
 #####  04/04 - 05/04
 - **Trabajar con archivos en excel**: en este apartado se aprenden cosas muy básicas para manejarse con Excel (crear archivos, guardarlos, editarlos, etc). 
 - **Formato de celdas**: explica los distintos formatos y estilos que le puedes aplicar a una celda. Existen distintos formatos que puedes aplicarle a números (moneda, contabilidad, fecha, porcentaje, científica, etc) o a textos (negrita, alineación,  color).
@@ -21,7 +31,9 @@
 
 ![](celebration.gif)
 
-## Curso de Excel: Funciones Básicas
+----------
+
+## Funciones Basicas
 #####  09/04 - 10/04
 - **Funciones matemáticas**: explica qué hacen las funciones de este grupo más comunes como:  suma, sumar.si,  abs, redondear, etc. También los distintos tipos de funciones que existen: sin parámetros (pi), con múltiples parámetros (suma) y con parámetros opcionales (promedio) .
 - **Funciones Estadísticas**: 
@@ -57,7 +69,9 @@
 
 ![](celebration.gif)
 
-## Curso de Excel: Funciones Avanzadas
+----------
+
+## Funciones Avanzadas
 ##### 20/04
 - **Funciones Lógicas**: if, and, or.  
 	- **Formato personalizado**: Para crear un formato de número personalizado tenemos que ir a la ventana de formato de celdas y en la pestaña de números elegir la categoría _personalizado_. Escogemos el tipo que más se parezca a lo que queramos y modificamos como mejor nos convenga.
@@ -174,6 +188,22 @@ En la ficha de Diseño tenemos la opción de inmobilizar columnas de forma que s
 
 > 14/05
 > **Primer intento de exámen**: no superado :(
+
 > **Segundo intento:** superadooo
 
 ![](wiii.gif)
+
+-----------
+
+## Curso de Excel: VBA
+#### Macros en Excel
+##### 14/05
+Este apartado del curso tiene el mismo contenido que el curso de Macros que ya hice, así que, aunque lo veré para poder acabar el curso, no explicaré nada aquí a no ser que incluya algo distinto. 
+
+#### Introducción a VBA
+##### 14/05
+- **Entrono de trabajo**: para acceder al entorno de VBA tenemos que tener habilitada la pestaña de _Programador_. En esa pestaña seleccionamos el primer botón _Visual Basic_ y nos abre una ventana con el entorno de trabajo.
+	- Debajo de los menús tenemos la barra de tareas, que podemos personalizar. 
+	- En la izquierda tenemos el árbol de los proyectos que tengamos abiertos. Por cada proyecto tenemos una carpeta de _Microsoft Excel Objetos_ con las hojas que contiene y _Módulos_. Los módulos se crean cada vez que grabamos una macro. 
+	- Debajo del explorador de proyectos tenemos la vista de propiedades. Por ejemplo podemos cambiar el nombre del módulo.
+- **Insertar función en VBA**:
