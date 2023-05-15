@@ -111,10 +111,43 @@
 ----------
 
 ## Bases de Datos
+#### Tablas
 ##### 25/04
-- **Tablas**: Dar formato como tabla nos permite trabajar con los datos de manera más sencilla, por ejemplo: segmentarlos, seleccionarlos, validarlos o filtrarlos. Funciones de bases de  datos como: contar, sumar, max, min pero aplicadas a una base de datos. Fila de totales: crea una fila al final de la tabla en la que puedes aplicar una función para cada columna (suma, promedio...). Vistas de hoja
-- **Tablas Dinámicas**: crearlas, ordenarlas, agrupar elementos, segmentarlas, lo visto en las tablas normales y algunas características propias que tienen las dinámicas. Crear campos y elementos calculados. Distintas formas de referenciar celdas de una tabla dinámica (sin import y con import). Gráficos dinámicos (en la ficha análisis de gráfico dinámico). Diseño de la tabla dinámica (pestaña diseño): activar subtotales, formato tabular... Aplicar formato condicional (se hace igual).
-- **Importar y relacionar datos**: Hay que tener en cuenta la versión de excel. Datos --> Obtener datos. En excel no se pueden tener relaciones de varios a varios. Se pueden importar de bbdd de páginas web o de archivos de texto.
+Dar formato como tabla nos permite trabajar con los datos de manera más sencilla. Por ejemplo: segmentarlos, seleccionarlos, validarlos o filtrarlos.
+	- **Funciones de bases de datos**: contar, sumar, max, min pero aplicadas a una base de datos. 
+	- **Fila de totales**: crea una fila al final de la tabla en la que puedes aplicar una función para cada columna (suma, promedio...). 
+	- **Vistas de hoja**: son especialmente útiles cuando varias personas trabajan con los mismos datos. Creas tus propias vistas en la que muestras datos filtrados sin alterar la tabla sobre la que trabajas.
+
+#### Tablas Dinámicas
+Para crear una tabla dinámica hay que seguir los siguientes pasos:
+1. Seleccionar las celdas a partir de las que quieres crear una tabla dinámica.
+2. Seleccionar _Insertar > Tabla dinámica_.
+3. Elegir dónde queremos colocar la tabla dinámica. 
+
+Para trabajar con ella:
+- Para agregar un campo a la tabla dinámica, activamos la casilla del nombre del campo en el panel _Campos de tabla dinámica_.
+- Los campos no numéricos se agregan a _Filas_, 
+- Las jerarquías de fecha y hora se agregan a _Columnas_.
+- Los campos numéricos se agregan a _Valores_.
+
+Podemos ordenarlas, agrupar elementos, segmentarlas, lo visto en las tablas normales y algunas características propias que tienen como crear campos y elementos calculados. 
+
+Existen distintas formas de referenciar celdas de una tabla dinámica. Excel automáticamente convierte la referencia en una función import para que siempre esté actualizado ese dato. Esto lo podemos desactivar en _Herramientas de tabla dinámica > Opciones > Tabla dinámica > Opciones > Generar GetPivotData_.
+
+Diseño de la tabla dinámica (pestaña diseño): activar subtotales, formato tabular... Aplicar formato condicional (se hace igual).
+
+#### Importar y relacionar datos
+Hay que tener en cuenta la versión de excel. Podemos importar datos desde una gran variedad de origenes de datos. Se hace desde la ficha _Datos > Obtener datos_. 
+A la hora de importar desde bases de datos hay que tener en cuenta que en excel no se pueden tener relaciones de varios a varios.
+- Podemos importar desde **archivos**:
+	- **Libro de Excel**
+	- **Texto/CSV**
+	- **XML**
+	- **JSON**
+	- **PDF**
+- **Bases de datos**
+- **Páginas web**
+
 
  > 27/04
 > **Exámen**: superado :)
