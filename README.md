@@ -194,6 +194,8 @@ A la hora de importar desde bases de datos hay que tener en cuenta que en excel 
 	- _**Ejercicio**_: con la plantilla que nos da tenemos que crear una macro con referencias absolutas.
 - **Hasta donde llegan las macros**: Para poder usar bien las macros hay que saber VBA.
 
+[Ejercicios](ejercicios/EjerciciosMacros.xlsb)
+
 > 05/05
 > **Exámen**: Aprobado
 
@@ -364,3 +366,35 @@ Do While condición
     acción
 Loop
 ```
+
+- **For**
+```
+'Step es opcional y es la cantidad que aumenta cada vez que se recorre el bucle'
+For contador = comienzo To final [Step] num
+	Código  
+Next
+```
+
+-**For Each**
+```
+For Each element In group
+	[statements]
+	[Exit For]
+	[statements]
+Next
+```
+
+#### Instrucciones VBA
+- **Matriz**: es una variable que puede almacenar y gestionar varios valores. Podemos declarar el array y después dimensionarlo.
+```
+Dim miArray() As Tipo
+ReDim miArray(variable, 7)
+```
+El rango destino en el que volcar el contenido de la matriz  debe tener el mismo tamaño (filas y columnas) que el array.
+
+- **MsgBox**: se utiliza para mostrar un mensaje en un formulario y espera a que el usuario haga click en algun botón. Puedes obtener la respuesta del usuario para realizar ciertas acciones que dependan de ésta.
+
+- **Eventos del libro**: en el archivo ThisWorkbook que está en la carpeta Microsoft Excel Objects encontramos todos los eventos de un libro y podemos programar lo que queremos que haga en cada caso.
+
+[Ejercicios](ejercicios/VBA.xlsb)
+[Ejercicios](ejercicios/VBAControlFlow.xlsb)
