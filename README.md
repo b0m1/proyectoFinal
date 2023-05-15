@@ -110,7 +110,7 @@
 
 ----------
 
-## Curso de Excel: Bases de Datos
+## Bases de Datos
 ##### 25/04
 - **Tablas**: Dar formato como tabla nos permite trabajar con los datos de manera más sencilla, por ejemplo: segmentarlos, seleccionarlos, validarlos o filtrarlos. Funciones de bases de  datos como: contar, sumar, max, min pero aplicadas a una base de datos. Fila de totales: crea una fila al final de la tabla en la que puedes aplicar una función para cada columna (suma, promedio...). Vistas de hoja
 - **Tablas Dinámicas**: crearlas, ordenarlas, agrupar elementos, segmentarlas, lo visto en las tablas normales y algunas características propias que tienen las dinámicas. Crear campos y elementos calculados. Distintas formas de referenciar celdas de una tabla dinámica (sin import y con import). Gráficos dinámicos (en la ficha análisis de gráfico dinámico). Diseño de la tabla dinámica (pestaña diseño): activar subtotales, formato tabular... Aplicar formato condicional (se hace igual).
@@ -121,7 +121,9 @@
 
 ![](celebration.gif)
 
-## Curso de Excel: Gráficos
+----------
+
+## Gráficos
 ##### 28/04
 - **Minigráficos**, se crean en una celda.
 - **Crear un gráfico**: a partir de unos datos, seleccionamos los que queremos que aparezcan y en insertar --> gráficos recomendados o elegimos el que queremos
@@ -145,7 +147,9 @@
 
 ![](celebration.gif)
 
-## Curso de Excel: Macros
+----------
+
+## Macros
 ##### 04/05
 - **Grabar una macro**: en la pestaña de Programador/Desarrollador le damos a "Grabar macro". Hay que ponerle nombre (sin espacios ni puntos), una combinación de teclas para ejecutarla (opcional), especificar dónde la vamos a guardar (para que funcione tiene que estar abierto el libro en el que esté guardada) y ponerle una descripción. Importante: detener la grabación. No se puede usar el deshacer.
 - _**Ejercicio**_: una macro que ponga el punto a los miles sin usar el botón por defecto.
@@ -162,7 +166,9 @@
 
 ![](wiii.gif)
 
-## Curso de Excel: Herramientas de cálculo avanzado
+----------
+
+## Herramientas de cálculo avanzado
 ##### 05/05 
 - **Búsqueda de objetivos**: Sirve para resolver una ecuación. En la ficha de Datos/Análisis de hipótesis/Buscar objetivo. Ahí indicamos la celda donde queremos coger los datos, el valor objetivo y la celda que queremos cambiar. 
 - **Tablas de datos**: Selccionamos los datos y en la ficha de Datos/Análisis de hipótesis/Tabla de datos. Hay que indicar la celda de la que coge los daos la fila o la columna o ambas.
@@ -172,31 +178,50 @@
 - **Nuevas herramientas Excel 365**:
 - **Protección de datos**:
 
-## Curso de Excel: Powers
+----------
+
+## Powers
 #### Power Query
 ##### 05/05 
 - **Importar datos con Power Query**. 
 ##### 08/05
+
 - **Importar archivos de texto**: hay dos formatos: archivos de texto delimitados (txt) y archivos de texto con valores separados por comas (csv).
+
 - **Importar datos desde una página web**: Obtener datos/Desde otras fuentes/Desde la web. Tiene que estar en formato de tablas.
+
 - **Importar datos desde cualquier base de datos**:Obtener datos/Desde otras fuentes/Desde microsoft query.
+
 - **Pantalla inicial de Power Query**: En datos/consultas y conexiones podemos acceder a power query dándole a editar a cualquiera de nuestras consultas. En el lateral derecho podemos cambiarle el nombre y ver los cambios que hemos realizado. Para deshacer una acción en power query tenemos que utilizar el formulario de pasos aplicados. 
+
 ##### 11/05
 - **Limpieza de Datos**: Antes de hacerlo es recomendable hacer una copia de seguridad. En la ficha de _inicio > administrar columnas > quitar columnas_ tenemos dos opciones: quitar columnas y quitar otras columnas. La primera quita las que tengamos seleccionadas y la segunda quita todas menos las que tengamos seleccionadas. También en _inicio > reducir filas_ podemos elegir cómo modificar las filas. Tenemos la opción de quitar las filas superiores, inferiores, alternas, duplicados, en blanco y errores. 
+
 - **Combinar consultas**: Si tenemos tablas relacionadas entre sí podemos ir a la columna en la que se encuentra el dato relacionado y en el botón que tiene en el encabezado tenemos la opción de expandir. Lo que hace es insertar en esa tabla todas las columnas que seleccionemos de la tabla relacionada.
+
 - **Agrupar**: Esta opción se encuentra en la ficha de Inicio. Tiene dos opciones: básico (sólo podemos elegir un campo) y avanzado (podemos elegir varios). Tenemos que incidar el campo por el que queremos agrupar (o campos si elegimos el uso avanzado). Además podemos elegir qué operaciones queremos que haga.
+
 - **Unir y separar campos**: Tanto en la ficha _Transformar_ como en la ficha _Agregar Columna_ tenemos la opción _Combinar columnas_. En transformar cambiará la columna en la que estamos mientras que de la otra forma añadirá una columna nueva con los datos combinados. Podemos indicarle qué separador poner. A la hora de separar los datos tenemos muchas más opciones (por delimitador, por número de caracteres, por posiciones).
+
 ##### 14/05
 - **Formato de columnas**: Podemos aplicarle algunos formatos de forma más cómoda, ya que en excel tendríamos que usar una función y no podríamos aplicarlo en la misma columna. Por ejemplo: mayus, minusc, nompropio, limpiar, etc. También podemos extraer parte del texto cómo si utilizasemos las funciones izquierda o derecha y agregarlo en otra columna.
+
 - **Columnas personalizadas**: sirve para crear nuestra propia fórmula. Para referenciar las columnas se ponen el nombre de éstas entre corchetes [ ]. También se utiliza el & para concatenar cadenas.
+
 - **Columnas condicionales**: Tienen el mismo funcionamiento que la función SI de excel, pero aplicado a columnas. 
+
 - **Columna Índice**: Para poder relacionar tablas entre si necesitamos un campo con valores únicos, un id. En el caso de no tenerlo podemos crear este tipo de columna.
+
 #### Power Pivot
 Para empezar a trabajar con esta herramienta lo primero que tenemos que hacer es importar datos. Una vez tenemos los datos cargados accedemos a Power Pivot desde la ficha de _Datos > Herramientas de Datos > Power Pivot_. En Power Pivot nos va a aparecer una pestaña por cada tabla importada y no podemos editar los campos manualmente. 
+
 - **Tabla dinámica**: para crear una tabla dinámica podemos hacer click en cualquier parte de la tabla y en la ficha Inicio de Power Pivot tenemos el botón 'tabla dinámica'. Elegimos en qué hoja queremos crearla y podemos trabajar con ella igual que con tablas dinámicas creadas a partir de datos no importados.
+
 - **Vistas**: si pulsamos en la opción _vista de diagrama_ las tablas se organizan según sus relaciones. Además, podemos eliminar relaciones existentes o crear nuevas uniendo los campos que queramos relacionar.
+
 - **Crear campo calculado**: se hace exactamente igual que en excel, pones el = y a continuación seleccionas los campos o la función que quieras utilizar. Lo distinto es como escribe la referencia de las celdas y que una vez crees una celda se rellena automáticamente. Las funciones pueden cambiar pero la sintaxis es la misma.
 En la ficha de Diseño tenemos la opción de inmobilizar columnas de forma que si nos desplazamos siempre la vamos a tener visible. 
+
 - **Perspectivas**: Una perspectiva es una vista personalizada en la que podemos incluir cualquier combinación de tablas, columnas, etc. Se crean y se cambian en la ficha de opciones avanzadas.
 
 > 14/05
@@ -208,7 +233,7 @@ En la ficha de Diseño tenemos la opción de inmobilizar columnas de forma que s
 
 -----------
 
-## Curso de Excel: VBA
+## VBA
 #### Macros en Excel
 ##### 14/05
 Este apartado del curso tiene el mismo contenido que el curso de Macros que ya hice, así que, aunque lo veré para poder acabar el curso, no explicaré nada aquí a no ser que incluya algo distinto. 
