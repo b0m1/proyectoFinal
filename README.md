@@ -1,5 +1,4 @@
 # Proyecto final
---------------
 
 ## Índice
 1. [Excel para Principiantes](README.md#curso-de-excel-para-principiantes)
@@ -7,18 +6,21 @@
 3. [Funciones Avanzadas](README.md#funciones-avanzadas)
 4. 
 
+
 ------------------------------
 
 ## Curso de Excel para principiantes 
 #####  04/04 - 05/04
 - **Trabajar con archivos en excel**: en este apartado se aprenden cosas muy básicas para manejarse con Excel (crear archivos, guardarlos, editarlos, etc). 
-- **Formato de celdas**: explica los distintos formatos y estilos que le puedes aplicar a una celda. Existen distintos formatos que puedes aplicarle a números (moneda, contabilidad, fecha, porcentaje, científica, etc) o a textos (negrita, alineación,  color).
+
 - **Realizar cálculos y funciones básicas**: las funciones se insertan con el símbolo _=_ seguido por el nombre de la función y paréntesis _()_ en los que insertamos los parámetros necesarios o, en el caso de que no tenga, los dejamos vacios. Puedes obtener una referencia absoluta de una celda pulsando F4, si pulsas dos veces sólo hace absoluta la referencia de la fila y, si lo haces una tercera vez, se vuelve absoluta la columna.
+
 - **Gráficos**: para crear un gráfico tenemos que seleccionar los datos que queremos que lo compongan y seleccionar _insertar > gráficos recomendados_ y elegimos el que queramos. Si pulsamos en los distintos tipos tenemos una vista previa de cómo quedaría nuestro gráfico.
 
 ##### 06/04 - 09/04
 
 - **Hojas de cálculo**: podemos crear más hojas de distintas formas. En la parte inferior pulsando el icono que tiene un + o seleccionando _inicio > insertar > insertar hoja_. Podemos copiar una hoja en el mismo libro si pulsamos CTRL y la arrastramos a la ubicación que deseemos. Otra opción es hacer click derecho en la pestaña y seleccionar _mover o copiar_.
+
 - **Diseño de impresión**: seleccionamos las hojas de cálculo que vayamos a imprimir o guardar en pdf y seleccionamos _archivo > imprimir_.
 
 [Ejercicios](ejercicios/Principiantes.xlsx)
@@ -33,9 +35,10 @@
 
 ----------
 
-## Funciones Basicas
+## Funciones Básicas
 #####  09/04 - 10/04
-- **Funciones matemáticas**: explica qué hacen las funciones de este grupo más comunes como:  suma, sumar.si,  abs, redondear, etc. También los distintos tipos de funciones que existen: sin parámetros (pi), con múltiples parámetros (suma) y con parámetros opcionales (promedio) .
+- **Funciones matemáticas**: explica qué hacen las funciones de este grupo más comunes como:  suma, sumar.si,  abs, redondear, etc. También los distintos tipos de funciones que existen: sin parámetros (pi), con múltiples parámetros (suma) y con parámetros opcionales (promedio).
+
 - **Funciones Estadísticas**: 
 	- **contar**: cuenta las celdas que contienen números.
 	- **contara**: cuenta las celdas que no están vacias. 
@@ -54,6 +57,7 @@
 	- **dias.lab(fecha_inicial ; fecha_final ; _vacaciones_)**: devuelve el núm de días laborables que existen entre las fechas indicadas. No incluye los fines de semana ni las fechas indicadas en vacaciones.
 	- **fecha()**: une tres valores distintos para convertirlos en una fecha.
 	- **fecha.mes(fecha_inicial ; meses)**: calcula una fecha con el número de meses que le indiques, si el valor es negativo devolverá  una fecha pasada a fecha_inicial, si es positivo será una fecha futura.
+
 - **Funciones de texto**: Se utiliza el operador & para concatenar cadenas. Podemos compararlas con el símbolo = (no distingue mayúsculas) o con la función igual (si distingue). Funciones útiles: 
 	- **espacios()**: elimina espacios que haya al principio o final de la cadena.
 	- **limpiar()**:  elimina carácteres no imprimibles.
@@ -76,12 +80,15 @@
 - **Funciones Lógicas**: if, and, or.  
 	- **Formato personalizado**: Para crear un formato de número personalizado tenemos que ir a la ventana de formato de celdas y en la pestaña de números elegir la categoría _personalizado_. Escogemos el tipo que más se parezca a lo que queramos y modificamos como mejor nos convenga.
 	- **Formato condicional**: nos permite resaltar un rango de celdas según la condición que le apliquemos. Podemos cambiar el color de la fuente, del fondo de la celda, aplicar escalas de colores, agregar iconos y otras muchas cosas.
+
 - **Funciones de búsqueda**: Funciones para buscar elementos dentro de tablas como Buscar.v y otras como índice, fila, columna para usar en conjunto con la anterior.
+
 - **Funciones varias**:  
 	- **Jerarquía.EQV**: devuelve la posición de un número dentro de una lista de números.
 	- **Hipervínculo** para crear links, **FormulaTexto** para ver la fórmula que hay en una celda como una cadena.
 	- **Pago**: una función financiera que calcula el pago periódico que debemos realizar por un préstamo.
 	- **Convertir**: para convertir de un sistema de medida (peso, distancia, temperatura, energía, potencia, etc) a otro. Muy útil.
+
 - **Novedades en Excel 365**: buscarx se puede usar sustituyendo a buscarv ya que es una versión mejorada de ésta. BuscarX puede devolver una matriz con varios elementos.
 	- **Ordenar y ordenarpor**: devuelven una matriz ordenada de los elementos de una matriz. La diferencia es que ordenarpor() usamos los datos de otra matriz para ordenar la matriz. 
 	- **Si.conjunto**: para no tener que anidar ifs. 
@@ -96,6 +103,7 @@
 
 ![](celebration.gif)
 
+----------
 
 ## Curso de Excel: Bases de Datos
 ##### 25/04
@@ -201,9 +209,95 @@ En la ficha de Diseño tenemos la opción de inmobilizar columnas de forma que s
 Este apartado del curso tiene el mismo contenido que el curso de Macros que ya hice, así que, aunque lo veré para poder acabar el curso, no explicaré nada aquí a no ser que incluya algo distinto. 
 
 #### Introducción a VBA
-##### 14/05
 - **Entrono de trabajo**: para acceder al entorno de VBA tenemos que tener habilitada la pestaña de _Programador_. En esa pestaña seleccionamos el primer botón _Visual Basic_ y nos abre una ventana con el entorno de trabajo.
 	- Debajo de los menús tenemos la barra de tareas, que podemos personalizar. 
 	- En la izquierda tenemos el árbol de los proyectos que tengamos abiertos. Por cada proyecto tenemos una carpeta de _Microsoft Excel Objetos_ con las hojas que contiene y _Módulos_. Los módulos se crean cada vez que grabamos una macro. 
 	- Debajo del explorador de proyectos tenemos la vista de propiedades. Por ejemplo podemos cambiar el nombre del módulo.
-- **Insertar función en VBA**:
+
+- **Insertar función en VBA**: Lo primero que tenemos que hacer es crear un módulo haciendo click en _Insertar > Módulo_. Después nos situamos en el editor de texto y seleccionamos _Insertar > Procedimiento_. Hay dos tipos y ambos pueden ser públicos o privados: 
+	-  **Procedimientos (Sub)**.
+	-  **Funciones (Function):** pueden devolverun valor.
+
+La sintaxis de una función es la siguiente:
+```
+Public Function nombre(argumento)
+	acciones
+End Function
+```
+
+- **Funciones de Excel dentro de VBA**: para utilizar funciones de Excel tenemos que usar el objeto WorksheetFunction. Por ejemplo:
+```
+Public Function circulo(radio)
+	circulo = WorksheetFunction.Pi * radio ^ 2
+End Function
+```
+
+- **Referenciar celdas**: Hay varias formas de referenciar una celda o un conjunto de celdas:
+	1. **Range()**: se puede usar para referenciar una o varias celdas. Puede tener uno o varios argumentos y se hace referencia escribiendo la letra de la columna y el número de la fila. Por ejemplo: Range("A2:C2").
+	2. **Cells()**: sólo hace referencia a una única celda y tiene como argumentos el número de la fila y de la columna. Puede usarse para hacer referencia a todas las celdas de una hoja llamándola así: ActiveSheet.Cells o NombreSheet.Cells.
+	3. **ActiveCell()**: hace referencia a la celda activa.
+	4. **[NombreCelda]**: Podemos definir una celda o conjunto de celdas con un nombre y llamarlo de esta forma en VBA.
+
+#### Estructuras de Control
+##### 15/05
+
+- **If**
+```
+If condición Then
+   acción
+Else
+   otra acción
+End If
+```
+
+- **Select Case**
+```
+Select Case Number
+	Case 1 To 5 
+		accion
+	Case 6, 7, 8
+		accion
+	Case 9 To 10
+		accion
+	Case Else 
+		accion
+End Select
+```
+
+- Podemos llamar a funciones desde otras funciones. 
+- Las funciones pueden tener argumentos opcionales. Se definen con optional seguido del nombre y tienen que ir siempre después de los obligatorios. Para comprobar si le hemos pasado el argumento podemos usar _IsMissing(nombreArg)_.
+- La palabra reservada para declarar una variable es _dim_ y se le asigna un tipo con _as_. 
+```
+dim variable as tipo
+```
+
+- Tipos de variables:
+	1. Boolean
+	2. Byte
+	3. Collection
+	4. Currency
+	5. Date
+	6. Decimal
+	7. Dictionary
+	8. Double
+	9. Integer
+	10. Long
+	11. String
+	12. Object
+	13. Variant
+
+- Podemos pedir datos al usuario con InputBox. Por ejemplo:
+```
+Public Sub nombre()
+    Dim nombreUsuario As String
+    nombreUsuario = InputBox("Introduce tu nombre", "Bienvenido")
+    ActiveCell.Value = "Bienvenido/a " & nombreUsuario
+End Sub
+```
+
+- **Do While**
+```
+Do While condición
+    acción
+Loop
+```
