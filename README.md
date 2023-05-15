@@ -10,7 +10,7 @@
 7. [Herramientas de cálculo avanzado](README.md#herramientas-de-calculo-avanzado)
 8. [Powers](README.md#powers)
 9. [VBA](README.md#vba)
-10.~~[VBA Avanzado](README.md#vba-avanzado)~~
+10. ~~[VBA Avanzado](README.md#vba-avanzado)~~
 
 ------------------------------
 
