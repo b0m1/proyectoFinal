@@ -406,3 +406,29 @@ El rango destino en el que volcar el contenido de la matriz  debe tener el mismo
 
 [Ejercicios](ejercicios/VBA.xlsb)
 [Ejercicios](ejercicios/VBAControlFlow.xlsb)
+
+-------
+
+## VBA Avanzado
+#### Formularios
+
+Para crear un formulario tenemos que estar en el editor de VBA y tener un módulo creado. Una vez tengamos el módulo podemos _Insertar > User Form_.
+A la hora de trabajar con formularios va a ser muy importante la ventana de propiedades.
+Para ponerle el nombre hay que tener en cuenta que se suele utilizar la abreviatura frm al principio, por lo tanto el nombre de nuestro formulario quedaría así: _frmDatos_. 
+Para cambiar el título del formulario tenemos que cambiar la propiedad **Caption**.
+Para poder mostrar el formulario dentro de excel vamos al archivo del módulo y creamos un procedimiento para mostrarlo. 
+
+```
+Public Sub mostrarForm()
+	frmDatos.Show
+End Sub
+```
+
+#### Componentes
+- **Label**: su abreviatura sería _lbl_. Sirven para mostrar un texto fijo.
+- **TextBox**: su abreviatura es _txt_. Sirven para que el usuario introduzca datos. Algunas propiedades útiles son: Multiline, MaxLength, PasswordChar.
+- **CommandButton**: su abreviatura es _btn_. Si queremos que se ejecute lo que tenemos en el _btnAceptar_ cuando le demos al enter tenemos que poner a true la propiedad Default y si queremos que se ejecute el _btnCancelar_ cuando cerremos el formulario tenemos que poner la  propiedad Cancel a true.
+- **CheckBox**
+- **OptionButton**: Hay que meterlos en un _frame_ si queremos que funcionen como grupo.
+- **ListBox**. Multiselect, ListStyle
+- **RefEdit**
