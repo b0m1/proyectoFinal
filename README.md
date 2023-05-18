@@ -10,7 +10,7 @@
 7. [Herramientas de cálculo avanzado](README.md#herramientas-de-calculo-avanzado)
 8. [Powers](README.md#powers)
 9. [VBA](README.md#vba)
-10. ~~[VBA Avanzado](README.md#vba-avanzado)~~
+10.[VBA Avanzado](README.md#vba-avanzado)
 
 ------------------------------
 
@@ -431,4 +431,19 @@ End Sub
 - **CheckBox**
 - **OptionButton**: Hay que meterlos en un _frame_ si queremos que funcionen como grupo.
 - **ListBox**. Multiselect, ListStyle
-- **RefEdit**
+- **RefEdit**: es muy útil porque sirve para ingresar rangos que utilizaremos como datos para realizar alguna fórmula, tablas, gráficos, etc.
+- **ComboBox**.
+- Podemos añadir más controles activándolos en la barra de herramientas. Yo lo hice y me petó todo.
+
+#### Ejemplos
+En este apartado nos enseña algunas macros útiles que estarán [aquí](ejercicios/VBAEjemplos.xlsb).
+
+#### Acceso a Datos
+- Para conectarnos a una base de datos necesitamos añadir la librería **ADODB** al proyecto en _Herramientas > Referencias_.
+- Hay que indicar un **provider** como podría ser _Microsoft.ACE.OLEDB_ o _SQLOLEDB_.
+- También le podemos indicar a qué base de datos va a acceder con el **initial catalog**.
+- Tenemos que pasarle en un **recordset** la consulta sql.
+- Copiar el resultado de la consulta en la hoja de excel.
+- Cerrar el recordset y la conexión.
+
+[Ejercicios](ejercicios/VBAAvanzado.xlsb)
