@@ -7,10 +7,10 @@
 4. [Bases de Datos](README.md#bases-de-datos)
 5. [Gráficos](README.md#graficos)
 6. [Macros](README.md#macros)
-7. [Herramientas de cálculo avanzado](README.md#herramientas-de-calculo-avanzado)
+7. [Herramientas de cálculo avanzado](README.md#herramientas-de-cálculo-avanzado)
 8. [Powers](README.md#powers)
 9. [VBA](README.md#vba)
-10.[VBA Avanzado](README.md#vba-avanzado)
+10. [VBA Avanzado](README.md#vba-avanzado)
 
 ------------------------------
 
