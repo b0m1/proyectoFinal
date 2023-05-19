@@ -213,13 +213,23 @@ A la hora de importar desde bases de datos hay que tener en cuenta que en excel 
 
 ## Herramientas de cálculo avanzado
 ##### 05/05 
-- **Búsqueda de objetivos**: Sirve para resolver una ecuación. En la ficha de Datos/Análisis de hipótesis/Buscar objetivo. Ahí indicamos la celda donde queremos coger los datos, el valor objetivo y la celda que queremos cambiar. 
-- **Tablas de datos**: Selccionamos los datos y en la ficha de Datos/Análisis de hipótesis/Tabla de datos. Hay que indicar la celda de la que coge los daos la fila o la columna o ambas.
-- **Escenarios**: Nos permite analizar nuestros datos creando varios escenarios modificando en cada caso el dato que le indiquemos, de esta forma podemos ver como cambiarían las fórmulas o los otros datos que dependan del que modifiquemos con el escenario. Los podemos crear en Datos/Analisis de hipótesis/Administrador de Escenarios.
-- **Consolidar**:
+_Archivo > Opciones > Complementos_
+- **Búsqueda de objetivos**: Sirve para resolver una ecuación. En la ficha de _Datos/Análisis de hipótesis/Buscar objetivo_. Ahí indicamos la celda donde queremos coger los datos, el valor objetivo y la celda que queremos cambiar. 
+- **Tablas de datos**: Selccionamos los datos y en la ficha de _Datos/Análisis de hipótesis/Tabla de datos_. Hay que indicar la celda de la que coge los daos la fila o la columna o ambas.
+- **Escenarios**: Nos permite analizar nuestros datos creando varios escenarios modificando en cada caso el dato que le indiquemos, de esta forma podemos ver como cambiarían las fórmulas o los otros datos que dependan del que modifiquemos con el escenario. Los podemos crear en _Datos/Analisis de hipótesis/Administrador de Escenarios_.
+- **Consolidar**.
+##### 19/05
 - **Solver**: Hay que instalarla en archivo/opciones/complementos
-- **Nuevas herramientas Excel 365**:
+- **Previsión**: _Datos > Prevision_. Utiliza datos para crear un pronóstico visual
+- **Nuevas herramientas Excel 365**. Nuevo tipo de dato: cotizaciones. Para empresas grandes. Nos permite obtener datos directamente como la cantidad de empleados, el sector, etc. También con lugares.
 - **Protección de datos**:
+	- **Nivel de archivo**: en el momento de guardar el archivo tenemos un desplegable a la izquierda del botón guardar dónde podemos seleccionar _Opciones generales_ y ponerle una contraseña de apertura y una de escritura.
+	- **Nivel de libro**: en la ficha de _Revisar > Proteger Libro_. Podemos ponerle una contraseña para poder desprotegerla después. Se puede escribir en las hojas pero no podemos ni moverlas, ni borrarlas ni ocultarlas/mostrarlas.
+	- **Nivel de hoja**: en la ficha de _Revisar > Proteger Hoja_. Podemos ponerle una contraseña también para desprotegerla después y seleccionar qué permisos queremos darle a los usuarios de esa hoja.
+
+> 19/05
+> **Primer intento de exámen**: no superado :(
+> **Segundo intento:** bienn
 
 ----------
 
