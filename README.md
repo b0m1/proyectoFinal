@@ -229,6 +229,7 @@ _Archivo > Opciones > Complementos_
 
 > 19/05
 > **Primer intento de exámen**: no superado :(
+
 > **Segundo intento:** bienn
 
 ----------
